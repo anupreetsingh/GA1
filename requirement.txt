@@ -1,0 +1,9 @@
+Create a local environment:
+python -m venv venv
+
+Run this bash/terminal command each time when you reopen the working directory:
+source venv/bin/activate
+
+You need to run this in your local virtual environment when importing project for the first time:
+pip install transformers datasets torch nltk
+
